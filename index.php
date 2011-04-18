@@ -9,4 +9,20 @@ if(!$x)
 	die("Error".mysql_error());
 else
 	echo "nailed it!!!";
+
+
+$q="Select * from wordlist";
+$r=mysql_query($q);
+if(!$r)
+	die("Error in select query: ".mysql_error());
+else
+	{
+	$n=mysql_num_rows($r);
+	for($i=0;$i<$n;$i++)
+	{
+	  $tmp[$i]=mysql_fetch_row($r);
+	  var_dump($tmp[$i]);
+	}
+
+	}
 ?>
