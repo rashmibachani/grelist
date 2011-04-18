@@ -12,7 +12,7 @@ else
 	echo "nailed it!!!";
 
 
-$q="Select * from wordlist";
+$q="Select * from db_971db7b5.wordlist";
 $r=mysql_query($q);
 if(!$r)
 	die("Error in select query: ".mysql_error());
