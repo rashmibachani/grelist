@@ -21,7 +21,7 @@ else
 	$n=mysql_num_rows($r);
 	for($i=0;$i<$n;$i++)
 	{
-	  $tmp[$i]=mysql_fetch_row($r[1]);
+	  $tmp=mysql_fetch_row($r);
           var_dump($tmp[$i]);
 	}
 
