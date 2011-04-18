@@ -28,3 +28,9 @@ else
 	}
 }
 ?>
+
+<html>
+<head>
+<script src="http://www.gmodules.com/ig/ifr?url=http://www.ldoceonline.com/widgets/igoogle_dictionary_search.xml&amp;synd=open&amp;w=320&amp;h=75&amp;title=__MSG_title_dictionary__&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+</head>
+</html>
