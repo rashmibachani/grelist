@@ -8,6 +8,7 @@ $x=mysql_connect($hostname, $username, $password);
 if(!$x)
 	die("Error".mysql_error());
 else
+{
 	echo "nailed it!!!";
 
 
@@ -25,4 +26,5 @@ else
 	}
 
 	}
+}
 ?>
