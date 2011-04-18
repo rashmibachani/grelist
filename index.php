@@ -25,10 +25,19 @@ else
 ?>
 
 <html>
-<form action="http://www.wikipedia.org/search-redirect.php" method="get">
-Search Wikipedia:
-<input type="hidden" name="language" value="en" />
-<input type="text" name="search" size="20" />
-<input type="submit" name="go" value=" Go! " />
-</form>
+			<div style="float: none;">&nbsp;</div>
+					</div>
+					<script type="text/javascript" src="/styles/default/scripts/search-box.js"></script>
+					<script type="text/javascript">
+					<!--
+						document.getElementById('search_box_terms').focus();
+					-->
+					</script>
+					<!-- Should be margin-right: 18px for Firefox, etc. -->
+					<div>
+						<!-- img src="styles/default/images/home/top-ten-carousel.jpg" alt="Top Ten Lists" style="margin-right: 14px;" / -->
+
+						<script type="text/javascript" src="/top-ten-lists/scripts/top-ten-home-carosel.js"></script>						
+						<script type="text/javascript" src="/trend-watch/scripts/trend-watch-home-carosel.js"></script>
+					</div>	
 </html>
