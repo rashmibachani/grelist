@@ -19,18 +19,16 @@ if(!$r)
 else
 	{
 	$n=mysql_num_rows($r);
-	for($i=0;$i<$n;$i++)
-	{
-	  $tmp=mysql_fetch_row($r);
-          var_dump($tmp[$i]);
-	}
-
+          var_dump($n);
 	}
 }
 ?>
 
 <html>
-<head>
-<script src="http://www.gmodules.com/ig/ifr?url=http://www.ldoceonline.com/widgets/igoogle_dictionary_search.xml&amp;synd=open&amp;w=320&amp;h=75&amp;title=__MSG_title_dictionary__&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
-</head>
+<form action="http://www.wikipedia.org/search-redirect.php" method="get">
+Search Wikipedia:
+<input type="hidden" name="language" value="en" />
+<input type="text" name="search" size="20" />
+<input type="submit" name="go" value=" Go! " />
+</form>
 </html>
